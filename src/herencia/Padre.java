@@ -14,7 +14,7 @@ public class Padre {
     }
 
     public void saludar() {
-        System.out.print("\nMi nombre de padre es " + getNombre()+" "+"mi apellido de padre es " + getApellido());
+        System.out.print("Mi nombre de padre es " + getNombre()+" "+"mi apellido de padre es " + getApellido());
         // System.out.print(" mi apellido de padre es " + getApellido());
     }
 

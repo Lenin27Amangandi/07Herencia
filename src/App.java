@@ -5,16 +5,16 @@ public class App {
     public static void main(String[] args) throws Exception {
 
         Padre p = new Padre();
-        p.ingresarSusNombres();
+        // p.ingresarSusNombres();
         // p.setNombre("Angel");
         // p.setApellido("Amangandi");
         // System.out.println("\nDesde aqui va el otro constructor");
         
         Hijo h = new Hijo(p);
-        h.ingresarSusNombres();
+        // h.ingresarSusNombres();
         // h.setNombre("Xander");
         // h.setApellido("Half");
-        h.saludar();
+        // h.saludar();
 
         // Avion avion = new Avion();
         // avion.on();
